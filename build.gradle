@@ -1,0 +1,22 @@
+/*
+ *
+ * This is a minimal configuration for a JavaFX 8 gradle project.
+ *
+ * For more information please access fxapps.blogspot.com
+ *
+ * by: William Siqueira
+ */
+apply plugin: 'java'
+apply plugin: 'application'
+
+group = 'org.jugvale'
+version = '0.0.1-SNAPSHOT'
+
+mainClassName = 'org.jugvale.App'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+jar {
+    archiveName = 'jfx8-app.jar'
+}
